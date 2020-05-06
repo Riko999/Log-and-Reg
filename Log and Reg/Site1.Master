@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Log_and_Reg.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Fake Submission Site</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+
+    </style>
+</head>
+<body style="direction: rtl">
+    <div class="navbar">
+        <a href="Registration.aspx">הרשמה</a>
+        <a href="Login.aspx">התחברות</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">משחקים </button>
+            <i class="fa fa-caret-down"></i>
+            <div class="dropdown-content">
+                <a href="Breakout.aspx">Breakout</a>
+                <a href="Minesweeper.aspx">Minesweeper</a>
+                <a href="Pong.aspx">Pong</a>
+            </div>
+        </div> 
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

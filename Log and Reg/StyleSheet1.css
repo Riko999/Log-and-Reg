@@ -1,0 +1,102 @@
+﻿.fc {
+    width: 200px;
+    clear: both;
+    direction: rtl;
+}
+.fc input {
+    width: 100%;
+    clear: both;
+}
+#sub {
+    width: 100px;
+}
+
+error {
+    color: red;
+    font-size:10px;
+}
+
+table {
+    padding: 10px;
+}
+/*master nav bar*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    float: right;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
+/*---------------*/
+
+/*general canvases*/
+#MyCanvas {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+/*----------------*/
+
+/*Breakout*/
+
+/*--------------*/
+
+/*-----fonts----*/
+
+/*--------------*/

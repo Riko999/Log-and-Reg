@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CATALOG>
+  <CD>
+    <UserName>Riko999</UserName>
+    <Password>Riko123</Password>
+    <FirstName>אריק</FirstName>
+    <LastName>פרץ</LastName>
+    <DateOfBirth>2004-03-04</DateOfBirth>
+    <Address>גבע 19</Address>
+    <Email>peretzerik@gmail.com</Email>
+    <Phone>0525473040</Phone>
+    <Gender>Man</Gender>
+    <Admin>True</Admin>
+  </CD>
+  <CD>
+    <UserName>Ofek1</UserName>
+    <Password>Ofek123</Password>
+    <FirstName>אופק</FirstName>
+    <LastName>קליין</LastName>
+    <DateOfBirth>2004-06-05</DateOfBirth>
+    <Address> אצל 89</Address>
+    <Email>ofekmail@gmail.com</Email>
+    <Phone>0525454542</Phone>
+    <Gender>Man</Gender>
+    <Admin>True</Admin>
+  </CD>
+</CATALOG>
